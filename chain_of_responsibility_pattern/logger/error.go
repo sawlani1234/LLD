@@ -17,6 +17,6 @@ func (e *Error) Log(logLevel enum.Logger, msg string) {
 	fmt.Println("Error :: ", msg)
 }
 
-func (e *Error) SetNext(l Logger) {
+func (e *Error) setNext(l Logger) {
 	e.next = l
 }

@@ -18,6 +18,6 @@ func (d *Debug) Log(logLevel enum.Logger, msg string) {
 	fmt.Println("Debug :: ", msg)
 }
 
-func (d *Debug) SetNext(l Logger) {
+func (d *Debug) setNext(l Logger) {
 	d.next = l
 }
