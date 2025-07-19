@@ -6,6 +6,9 @@ otherwise. u may miss to copy some variable
 3. some variables might be private which hence it wont be possib;e to set those variables
 4. Prootype pattern comes to rescue which says thaat class itself has an Clone() implementation
 and it is the repsonsbility of class to provide object clone
+
+5. In go mostly use shallow copy for direct assignment or deep copy 3rd party methods 
+
 */
 
 package main
